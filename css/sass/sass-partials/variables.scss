@@ -1,0 +1,32 @@
+$lightblue : #C7F7FF;
+$medblue   : #89C0C9;
+$darkblue  : #3a5E63;
+$lightbrown: #C9A689;
+$darkbrown : #7C593C;
+$lightgrey : #d4d4d4;
+$darkgrey  : #222;
+
+.clearfix:after{
+    display:table;
+    clear: both;
+    content: "";
+}
+.bg-focal{
+    background-color: #C9A689;
+    color: #7C593C;
+}
+section.focal{
+    width: 400px; /* default */
+    margin: 0 auto;
+}
+.focal{
+    h2{
+        font-size: 1.999rem;
+        line-height: 1.2;
+        padding: 2rem 2rem 1rem 2rem;
+    }
+    .author{
+        font-size: 1rem;
+        padding: 0.2rem 2rem 2rem;
+    }
+}

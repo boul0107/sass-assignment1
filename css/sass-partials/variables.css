@@ -1,0 +1,23 @@
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: ""; }
+
+.bg-focal {
+  background-color: #C9A689;
+  color: #7C593C; }
+
+section.focal {
+  width: 400px;
+  /* default */
+  margin: 0 auto; }
+
+.focal h2 {
+  font-size: 1.999rem;
+  line-height: 1.2;
+  padding: 2rem 2rem 1rem 2rem; }
+.focal .author {
+  font-size: 1rem;
+  padding: 0.2rem 2rem 2rem; }
+
+/*# sourceMappingURL=variables.css.map */

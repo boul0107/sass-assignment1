@@ -1,0 +1,74 @@
+@charset "UTF-8";
+h1, h2, h3, h4 {
+  font-family: Cardo, ΓÇÿPalatino LinotypeΓÇÖ, ΓÇÿBook AntiquaΓÇÖ, Palatino, serif;
+  /* serif for the headings */ }
+
+.bg-header {
+  background-color: #fff;
+  background-color: #C7F7FF;
+  color: #222;
+  border-bottom: 1rem solid #89C0C9;
+  border-top: 1rem solid #3a5E63;
+  position: relative; }
+  .bg-header before,
+  .bg-header after {
+    content: "";
+    position: absolute;
+    bottom: -1rem;
+    width: 30%;
+    height: 1rem;
+    background-color: #3a5E63; }
+  .bg-header before {
+    left: 0; }
+  .bg-header after {
+    right: 0; }
+
+header {
+  width: 400px;
+  /* default */
+  margin: 0 auto;
+  position: relative; }
+  header h1 {
+    width: 100%;
+    padding: 0 2rem; }
+    header h1 nav {
+      width: 100%; }
+      header h1 nav nav > ul li {
+        width: 100%;
+        float: none; }
+        header h1 nav nav > ul li nav {
+          padding: 2rem 0;
+          clear: both; }
+          header h1 nav nav > ul li nav nav > ul > li > a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #222;
+            font-size: 1.414rem;
+            letter-spacing: 0.25rem;
+            border: 1px solid #d4d4d4;
+            border-bottom: none;
+            padding: 1.0rem 2rem;
+            line-height: 1;
+            background-color: #fff; }
+            header h1 nav nav > ul li nav nav > ul > li > a nav > ul > li > a:hover {
+              font-weight: 700;
+              color: #7C593C; }
+              header h1 nav nav > ul li nav nav > ul > li > a nav > ul > li > a:hover h1 {
+                color: #7C593C;
+                letter-spacing: 0.1rem; }
+                header h1 nav nav > ul li nav nav > ul > li > a nav > ul > li > a:hover h1 i.fa-lg {
+                  display: block;
+                  width: 25%;
+                  float: left;
+                  font-size: 7rem;
+                  line-height: 12.7936rem;
+                  color: #C9A689; }
+                  header h1 nav nav > ul li nav nav > ul > li > a nav > ul > li > a:hover h1 i.fa-lg i.fa-lg ~ span {
+                    float: right;
+                    width: 75%;
+                    font-size: 3.998rem;
+                    padding-left: 1rem;
+                    text-align: right; }
+
+/*# sourceMappingURL=bg-header.css.map */

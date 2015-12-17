@@ -1,0 +1,26 @@
+.bg-footer {
+  background-color: #fff;
+  color: #d4d4d4; }
+
+footer {
+  padding: 2rem 0; }
+  footer .col-2:first-child {
+    border-left: 0; }
+  footer h4 {
+    font-size: 1.414rem;
+    padding: 0.5rem 2rem;
+    color: #7C593C; }
+  footer p {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    color: #222; }
+  footer .fa-circle {
+    color: #222; }
+  footer h4[lang=de] {
+    display: block; }
+  footer h4[lang=en],
+  footer h4[lang=ar],
+  footer h4[lang=ru] {
+    display: none; }
+
+/*# sourceMappingURL=bg-footer.css.map */
